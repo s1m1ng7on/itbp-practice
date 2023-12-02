@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show More</title>
+</head>
+<body>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    <a id="show-more-button" href="#" onclick="showMore()">Show more...</a>
+    <span id="hidden-text" style="display: none;"> Pharetra pharetra massa massa ultricies mi. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Ornare massa eget egestas purus viverra. Elementum pulvinar etiam non quam lacus suspendisse.</span>
+
+    <script>
+        function showMore() {
+            const hiddentTextElement = document.getElementById('hidden-text');
+            const showMoreButtonElement = document.getElementById('show-more-button');
+
+            hiddentTextElement.style.display = 'inline';
+            showMoreButtonElement.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

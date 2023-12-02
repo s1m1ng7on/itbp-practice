@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pascal or Camel Case</title>
+</head>
+
+<body>
+    <label for="text-input">Text:</label>
+    <input type="text" id="text-input" /><br>
+    <label for="naming-convention-input">Naming convention:</label>
+    <input type="text" id="naming-convention-input" />
+    <button onclick="transform(document.getElementById('text-input').value, document.getElementById('naming-convention-input').value)">Transform</button>
+    <div id="result">Result:</div>
+
+    <script>
+        function transform(text, namingConvention) {
+            text = text.toLowerCase().split(' ');
+
+            let resultMessage;
+            switch (namingConvention) {
+                case 'Pascal Case':
+                    for (let i = 0; i < text.length; i++) {
+                        text[i][0] = text[i][0].toUpperCase();
+                        resultMessage += text[i];
+                    }
+                    break;
+                case 'Camel Case':
+                    resultMessage += text[0];
+                    for (let i = 1; i < text.length; i++) {
+                        text[i][0] = text[i][0].toUpperCase();
+                        resultMessage += text[i];
+                    }
+                    break;
+                default:
+                    resultMessage = 'Error!';
+                    break;
+            }
+
+            const resultElement = document.getElementById('result');
+            resultElement.textContent = `Result: ${resultMessage}`;
+        }
+    </script>
+</body>
+
+</html>

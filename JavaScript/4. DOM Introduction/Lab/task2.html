@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collect List Items</title>
+</head>
+
+<body>
+    <ul>
+        <li>First element</li>
+        <li>Second element</li>
+        <li>Third element</li>
+    </ul>
+
+    <textarea id="extracted-items-textarea"></textarea><br>
+    <input type="button" onclick="extractText()" value="Extract Text" />
+
+    <script>
+        function extractText() {
+            const listItems = document.getElementsByTagName('li');
+            const extractedItemsTextarea = document.getElementById('extracted-items-textarea');
+
+            let extractedText = '';
+            for (let i = 0; i < listItems.length; i++) {
+                extractedText += listItems[i].textContent + '\n';
+            }
+
+            extractedItemsTextarea.textContent = extractedText;
+        }
+    </script>
+</body>
+
+</html>

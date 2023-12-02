@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Table</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Beer</td>
+            <td class="price">2.88</td>
+        </tr>
+        <tr>
+            <td>Fries</td>
+            <td class="price">2.15</td>
+        </tr>
+        <tr>
+            <td>Burger</td>
+            <td class="price">4.59</td>
+        </tr>
+        <tr>
+            <td>Total:</td>
+            <td id="sum"></td>
+        </tr>
+    </table>
+    <button onclick="sumTable()">Sum</button>
+
+    <script>
+        function sumTable() {
+            const tableRowPriceElements = document.getElementsByClassName('price');
+
+            let sum = 0;
+            Array.from(tableRowPriceElements).forEach((priceElement) => {
+                sum += Number(priceElement.textContent);
+            });
+
+            const sumPriceElement = document.getElementById('sum');
+            sumPriceElement.textContent = sum;
+        }
+    </script>
+</body>
+
+</html>
