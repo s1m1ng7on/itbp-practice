@@ -24,7 +24,7 @@ class LibraryCollection {
     payBook(bookName) {
         const selectedBook = this.books.find(book => book.bookName === bookName);
 
-        if (selectedBook === null) {
+        if (selectedBook === undefined) {
             throw new Error(`${bookName} is not in the collection.`);
         }
 
@@ -39,7 +39,7 @@ class LibraryCollection {
     removeBook(bookName) {
         const selectedBook = this.books.find(book => book.bookName === bookName);
 
-        if (selectedBook === null) {
+        if (selectedBook === undefined) {
             throw new Error('The book, you\'re looking for, is not found.');
         }
 
@@ -56,16 +56,13 @@ class LibraryCollection {
         if (bookAuthor === undefined) {
             const emptySpots = this.capacity - this.books.length;
             const sortedBooks = [...this.books].sort((a, b) => a.bookName.localeCompare(b.bookName));
-
             return `The book collection has ${emptySpots} empty spots left.\n${sortedBooks.map(book => book.toString()).join('\n')}`;
         } else {
-            return this.books.filter(book => book.bookAuthor === bookAuthor).map(book => book.toString()).join('\n');
+            const authorBooks = this.books.filter(book => book.bookAuthor === bookAuthor);
+            if (authorBooks.length === 0) {
+                throw new Error(`${bookAuthor} is not in the collection.`);
+            }
+            return authorBooks.map(book => book.toString()).join('\n');
         }
     }
 }
-
-const myLibraryCollection = new LibraryCollection(5);
-myLibraryCollection.addBook('Mein Kampf', 'Adolf Hitler');
-myLibraryCollection.addBook('kNigga', 'Prosveta');
-myLibraryCollection.addBook('From Israel With Love', 'Adolf Hitler');
-console.log(myLibraryCollection.getStatistics('Adolf Hitler'));
