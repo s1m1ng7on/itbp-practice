@@ -8,36 +8,52 @@ newStudentFormElement.addEventListener('submit', createStudent);
 loadStudents();
 
 async function loadStudents() {
-    resultsTableTbodyElement.innerHTML = '';
-
     const response = await fetch(url);
     const students = await response.json();
 
-    Object.values(students).forEach(student => {
-        console.log(student);
+    resultsTableTbodyElement.innerHTML = '';
 
-        const resultsTableStudentTrElement = document.createElement('tr');
+    Object.values(students).forEach(student => {
+        const trElement = document.createElement('tr');
+        resultsTableTbodyElement.appendChild(trElement);
+
+        const firstNameTdElement = document.createElement('td');
+        firstNameTdElement.textContent = student.firstName;
+        trElement.appendChild(firstNameTdElement);
+
+        const lastNameTdElement = document.createElement('td');
+        lastNameTdElement.textContent = student.lastName;
+        trElement.appendChild(lastNameTdElement);
+
+        const facultyNumberTdElement = document.createElement('td');
+        facultyNumberTdElement.textContent = student.facultyNumber;
+        trElement.appendChild(facultyNumberTdElement);
+
+        const gradeTdElement = document.createElement('td');
+        gradeTdElement.textContent = student.grade;
+        trElement.appendChild(gradeTdElement);
     })
 }
 
 async function createStudent(e) {
     e.preventDefault();
 
-    const formData = new FormData(newStudentFormElement);
-    const inputs = [...formData.entries()];
+    const formData = new FormData(e.target);
 
-    console.log(inputs);
-
-
-    /* await fetch(url, {
+    await fetch(url, {
         method: 'post',
         headers: {
-            'Content-type': 'application/json'
+            'Content-Type': 'application/json'
         },
-        body: {
+        body: JSON.stringify({
+            firstName: formData.get('firstName'),
+            lastName: formData.get('lastName'),
+            facultyNumber: formData.get('facultyNumber'),
+            grade: Number(formData.get('grade'))
+        })
+    });
 
-        }
-    }) */
+    e.target.reset();
 
     loadStudents();
 }

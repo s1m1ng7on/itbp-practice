@@ -18,7 +18,6 @@ function solution() {
                         return response.json();            
                     })
                     .then(articleData => {
-                        console.log(articleData);
                         mainSectionElement.innerHTML += `<div class="accordion">
                             <div class="head">
                                 <span>${articleData.title}</span>
