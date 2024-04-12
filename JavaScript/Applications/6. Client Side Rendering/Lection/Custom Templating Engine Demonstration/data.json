@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Article 1",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod a nesciunt officiis, nobis delectus nemo debitis officia rerum, quis fugit eaque adipisci sunt magnam libero rem reiciendis? Magnam cupiditate rerum aspernatur, iure consectetur quia consequatur facere, illum enim eaque velit! Laudantium soluta aliquam esse provident facere nemo architecto, facilis a, at dolorum tenetur deleniti, velit recusandae sequi ad? Totam praesentium similique, magni odio sint facilis rem sapiente. Quae maiores omnis illum cum ducimus culpa consectetur, aperiam, mollitia eum laudantium delectus quisquam nostrum sapiente dolore doloremque aliquam aliquid expedita eveniet ad et porro! Cumque optio dolor inventore quam laboriosam perspiciatis itaque.",
+        "author": "John Doe"
+    },
+    {
+        "title": "Article 2",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod a nesciunt officiis, nobis delectus nemo debitis officia rerum, quis fugit eaque adipisci sunt magnam libero rem reiciendis? Magnam cupiditate rerum aspernatur, iure consectetur quia consequatur facere, illum enim eaque velit! Laudantium soluta aliquam esse provident facere nemo architecto, facilis a, at dolorum tenetur deleniti, velit recusandae sequi ad? Totam praesentium similique, magni odio sint facilis rem sapiente. Quae maiores omnis illum cum ducimus culpa consectetur, aperiam, mollitia eum laudantium delectus quisquam nostrum sapiente dolore doloremque aliquam aliquid expedita eveniet ad et porro! Cumque optio dolor inventore quam laboriosam perspiciatis itaque.",
+        "author": "George Smith"
+    },
+    {
+        "title": "Article 3",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod a nesciunt officiis, nobis delectus nemo debitis officia rerum, quis fugit eaque adipisci sunt magnam libero rem reiciendis? Magnam cupiditate rerum aspernatur, iure consectetur quia consequatur facere, illum enim eaque velit! Laudantium soluta aliquam esse provident facere nemo architecto, facilis a, at dolorum tenetur deleniti, velit recusandae sequi ad? Totam praesentium similique, magni odio sint facilis rem sapiente. Quae maiores omnis illum cum ducimus culpa consectetur, aperiam, mollitia eum laudantium delectus quisquam nostrum sapiente dolore doloremque aliquam aliquid expedita eveniet ad et porro! Cumque optio dolor inventore quam laboriosam perspiciatis itaque.",
+        "author": "Ali Baba"
+    }
+]
