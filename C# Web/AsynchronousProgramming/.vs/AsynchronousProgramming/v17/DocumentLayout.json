@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\School\\Software Development\\AsynchronousProgramming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E54451-5158-42B5-98F5-81E124ADB91C}|GetAsync\\GetAsync.csproj|d:\\projects\\school\\software development\\asynchronousprogramming\\getasync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E54451-5158-42B5-98F5-81E124ADB91C}|GetAsync\\GetAsync.csproj|solutionrelative:getasync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E54451-5158-42B5-98F5-81E124ADB91C}|GetAsync\\GetAsync.csproj|d:\\projects\\school\\software development\\asynchronousprogramming\\getasync\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E54451-5158-42B5-98F5-81E124ADB91C}|GetAsync\\GetAsync.csproj|solutionrelative:getasync\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\Projects\\School\\Software Development\\AsynchronousProgramming\\GetAsync\\Movie.cs",
+              "RelativeDocumentMoniker": "GetAsync\\Movie.cs",
+              "ToolTip": "D:\\Projects\\School\\Software Development\\AsynchronousProgramming\\GetAsync\\Movie.cs",
+              "RelativeToolTip": "GetAsync\\Movie.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T07:33:48.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\School\\Software Development\\AsynchronousProgramming\\GetAsync\\Program.cs",
+              "RelativeDocumentMoniker": "GetAsync\\Program.cs",
+              "ToolTip": "D:\\Projects\\School\\Software Development\\AsynchronousProgramming\\GetAsync\\Program.cs",
+              "RelativeToolTip": "GetAsync\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T07:30:31.751Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
