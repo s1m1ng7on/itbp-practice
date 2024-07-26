@@ -78,11 +78,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\School\\Software Development\\C# Web\\WebServer\\WebServer.csproj",
+      "projectUniqueName": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\WebServer.csproj",
       "projectName": "WebServer",
-      "projectPath": "D:\\Projects\\School\\Software Development\\C# Web\\WebServer\\WebServer.csproj",
+      "projectPath": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\WebServer.csproj",
       "packagesPath": "C:\\Users\\Simeon Gunev\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\School\\Software Development\\C# Web\\WebServer\\obj\\",
+      "outputPath": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Simeon Gunev\\AppData\\Roaming\\NuGet\\NuGet.Config",

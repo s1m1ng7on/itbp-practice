@@ -55,11 +55,11 @@ namespace WebServer
                     response.Headers.Add("Environment", Info.OperatingSystem);
                     response.Headers.Add("Date", DateTime.Now.ToString());
 
-                    string responseString = response.ToString();
-                    Console.WriteLine(responseString);
-
                     if (response.PreRenderAction != null)
                         response.PreRenderAction(request, response);
+
+                    string responseString = response.ToString();
+                    Console.WriteLine(responseString);
 
                     await WriteResponse(stream, response);
 

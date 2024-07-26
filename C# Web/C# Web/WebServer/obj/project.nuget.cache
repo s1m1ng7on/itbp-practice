@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0wPkA+KiOK8dk4WJpdI11bD7JeW7Vc4/2qOQJuF+iwIU+ElIYwogla5iX/TxAEwHLyMnBPNB82YbKiu0Bv4XKw==",
+  "dgSpecHash": "1zSXOrfbei62gb9Nz5WW8MrxpF0LRZMipOHLJNBneJ+4hTf6NZnALp0715+hE64dt0kPFuTCtOahqLbFk5411w==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\School\\Software Development\\C# Web\\WebServer\\WebServer.csproj",
+  "projectFilePath": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\WebServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simeon Gunev\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512"
   ],

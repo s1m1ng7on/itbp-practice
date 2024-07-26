@@ -4,6 +4,9 @@ namespace WebServer.Http
 {
     public class Header
     {
+        public const string Cookie = "Cookie";
+        public const string SetCookie = "Set-Cookie";
+
         public string Name { get; set; }
         public string Value { get; set; }
 
