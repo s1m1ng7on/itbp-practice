@@ -4,6 +4,9 @@ namespace WebServer.Http
 {
     public class Header
     {
+        public const string ContentType = "Content-Type";
+        public const string ContentLength = "Content-Length";
+        public const string ContentDisposition = "Content-Disposition";
         public const string Cookie = "Cookie";
         public const string SetCookie = "Set-Cookie";
 

@@ -3,15 +3,13 @@
     public class Response
     {
         public StatusCode StatusCode { get; init; }
-        public HeaderCollection Headers { get; } = new HeaderCollection();
-        public CookieCollection Cookies { get; } = new CookieCollection();
+        public HeaderCollection Headers { get; private set; } = new HeaderCollection();
+        public CookieCollection Cookies { get; private set; } = new CookieCollection();
         public string Body { get; set; }
+        public byte[] FileContent { get; set; }
         public Action<Request, Response> PreRenderAction { get; protected set; }
 
-        public Response(StatusCode statusCode)
-        {
-            StatusCode = statusCode;
-        }
+        public Response(StatusCode statusCode) => StatusCode = statusCode;
 
         public override string ToString()
         {

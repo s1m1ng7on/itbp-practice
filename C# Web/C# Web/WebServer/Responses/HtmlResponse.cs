@@ -1,5 +1,4 @@
-﻿using HtmlAgilityPack;
-using WebServer.Http;
+﻿using WebServer.Http;
 
 namespace WebServer.Responses
 {

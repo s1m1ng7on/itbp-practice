@@ -18,7 +18,7 @@ namespace WebServer.Http
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 
-        public override string ToString() => 
+        public override string ToString() =>
             string.Join("\n", this.Select(c => new Header(Header.SetCookie, c.ToString())));
     }
 }

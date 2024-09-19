@@ -18,12 +18,9 @@ D:\Projects\School\Software Development\C# Web\WebServer\obj\Debug\net8.0\WebSer
 D:\Projects\School\Software Development\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.Up2Date
 D:\Projects\School\Software Development\C# Web\WebServer\obj\Debug\net8.0\WebServer.Resources.Pages.resources
 D:\Projects\School\Software Development\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.GenerateResource.cache
-D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.exe
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.deps.json
-D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.runtimeconfig.json
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.pdb
-D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\HtmlAgilityPack.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.AssemblyReference.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.Resources.Pages.resources
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.GenerateResource.cache
@@ -32,9 +29,7 @@ D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.Ass
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.AssemblyInfo.cs
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.CoreCompileInputs.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.sourcelink.json
-D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.Up2Date
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\refint\WebServer.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.pdb
-D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.genruntimeconfig.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\ref\WebServer.dll

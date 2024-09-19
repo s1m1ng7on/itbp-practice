@@ -22,7 +22,7 @@ namespace WebServer.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Pages {
+    public class Pages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace WebServer.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WebServer.Resources.Pages", typeof(Pages).Assembly);
@@ -51,12 +51,35 @@ namespace WebServer.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html lang=&quot;en&quot;&gt;
+        ///&lt;head&gt;
+        ///    &lt;meta charset=&quot;utf-8&quot;&gt;
+        ///    &lt;title&gt;Login Form&lt;/title&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///    &lt;form action=&quot;/login&quot; method=&quot;POST&quot;&gt;
+        ///        Username: &lt;input type=&quot;text&quot; name=&quot;Username&quot; /&gt;
+        ///        Password: &lt;input type=&quot;text&quot; name=&quot;Password&quot; /&gt;
+        ///        &lt;input type=&quot;submit&quot; value=&quot;Log In&quot; /&gt;
+        ///    &lt;/form&gt;
+        ///&lt;/body&gt;
+        ///&lt;/html&gt;
+        ///.
+        /// </summary>
+        public static string LoginForm {
+            get {
+                return ResourceManager.GetString("LoginForm", resourceCulture);
             }
         }
         
@@ -74,7 +97,7 @@ namespace WebServer.Resources {
         ///        body, h1, h2, h3, h4, h5, h6 {
         ///            [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Parallax {
+        public static string Parallax {
             get {
                 return ResourceManager.GetString("Parallax", resourceCulture);
             }

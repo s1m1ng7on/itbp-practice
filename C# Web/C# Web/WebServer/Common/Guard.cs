@@ -1,6 +1,4 @@
-﻿using WebServer.Http;
-
-namespace WebServer.Common
+﻿namespace WebServer.Common
 {
     public static class Guard
     {
