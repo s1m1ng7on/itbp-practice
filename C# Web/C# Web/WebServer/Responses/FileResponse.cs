@@ -1,4 +1,5 @@
-﻿using WebServer.Http;
+﻿using System.IO;
+using WebServer.Http;
 
 namespace WebServer.Responses
 {

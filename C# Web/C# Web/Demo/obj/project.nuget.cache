@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "g2rZPRROYpIvwtxnEX1b3otF+dm1apDA3TEEeICX6PrLoaCpYWyY2oIqgcxcbFvGr13X8Hh8fUI93NXQ8gYuMA==",
+  "dgSpecHash": "fVZfWBgqJodMLt8JxbSbGt/FcA0YZKPApD0PX6o6+5wqOpG4Iw3YF0SN0wxDFcqeosjtqlQgEyDhfMW9TuIHjg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simeon Gunev\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
-    "C:\\Users\\Simeon Gunev\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Simeon Gunev\\.nuget\\packages\\webserver\\1.0.0\\webserver.1.0.0.nupkg.sha512"
+    "C:\\Users\\Simeon Gunev\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

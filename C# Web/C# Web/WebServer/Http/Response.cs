@@ -17,7 +17,7 @@
                 $"{Headers}\n" +
                 (Cookies.Count > 0 ? $"{Cookies}\n" : string.Empty) +
                 $"\n" +
-                $"{Body}";
+                Body;
         }
     }
 }

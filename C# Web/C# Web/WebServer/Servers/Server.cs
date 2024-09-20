@@ -1,9 +1,9 @@
-﻿using System.Diagnostics;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using WebServer.Http;
 using WebServer.Routing;
+using WebServer.Servers.Logging;
 
 namespace WebServer.Servers
 {
@@ -11,6 +11,7 @@ namespace WebServer.Servers
     {
         private readonly TcpListener serverListener;
         private readonly RoutingTable routingTable;
+        private readonly Logger logger;
 
         public ServerInfo Info { get; init; }
 
@@ -19,6 +20,7 @@ namespace WebServer.Servers
             Info = new ServerInfo(name, _ipAddress, _port, "1.0.0");
             serverListener = new TcpListener(IPAddress.Parse(Info.IPAddress), Info.Port);
             routingTableConfiguration(routingTable = new RoutingTable());
+            logger = new Logger($"{Info.StartTime}:{Info.Name}");
         }
 
         public Server(string name, int port, Action<IRoutingTable> routingTable) : this(name, "0.0.0.0", port, routingTable) { }
@@ -39,11 +41,13 @@ namespace WebServer.Servers
 
                 _ = Task.Run(async () =>
                 {
+                    string clientIp = ((IPEndPoint)connection.Client.RemoteEndPoint).Address.ToString();
+
                     NetworkStream stream = connection.GetStream();
 
                     string requestText = await ReadRequest(stream);
 
-                    Request request = Request.Parse(requestText);
+                    Request request = Request.Parse(requestText, clientIp);
 
                     Response response = routingTable.MatchRequest(request);
 
@@ -60,8 +64,7 @@ namespace WebServer.Servers
 
                     await WriteResponse(stream, response);
 
-                    string requestLog = GetLog(request, response);
-                    Console.WriteLine(requestLog);
+                    logger.ShortLog(new Log(request, response));
 
                     connection.Close();
                 });
@@ -93,6 +96,14 @@ namespace WebServer.Servers
         private async Task WriteResponse(NetworkStream stream, Response response)
         {
             byte[] responseBytes = Encoding.UTF8.GetBytes(response.ToString());
+
+            if (response.FileContent != null)
+            {
+                responseBytes = responseBytes
+                    .Concat(response.FileContent)
+                    .ToArray();
+            }
+
             await stream.WriteAsync(responseBytes);
         }
 
@@ -103,23 +114,6 @@ namespace WebServer.Servers
                 request.Session[Session.CurrentDateKey] = DateTime.Now.ToString();
                 response.Cookies.Add(Session.CookieName, request.Session.Id);
             }
-        }
-
-        private string GetLog(Request request, Response response)
-        {
-            string statusCodeColor = $"\u001b{(int)response.StatusCode switch
-            {
-                >= 100 and < 200 => "[34m",
-                >= 200 and < 300 => "[32m",
-                >= 300 and < 400 => "[94m",
-                >= 400 and < 500 => "[31m",
-                >= 500 and < 600 => "[33m",
-                _ => "[0m"
-            }}";
-
-            return $"{request.Method} {Info.LocalAccessPoint}{request.Path} => {statusCodeColor}{(int)response.StatusCode} {response.StatusCode}\u001b[0m\n" +
-                   ((int)response.StatusCode < 400 ? $"Headers: {response.Headers.Count}\n" : string.Empty) +
-                   (!string.IsNullOrEmpty(response.Body) ? $"\u001b[90m{(response.Body.Length > 50 ? $"{response.Body.Substring(0, 50)}..." : response.Body)}\u001b[0m\n" : string.Empty);
         }
     }
 

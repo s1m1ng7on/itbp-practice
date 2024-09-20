@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nQ87DweBuDpH81XAdbeKT0MAPPwKQ34ToxBpzpwPfc79K9cDIw9XWt2eSRyK6nwlEMDg3yhQ943Ufaj4vWU/og==",
+  "dgSpecHash": "sit9RaOGH3FYeIfF3WLdCW0c7ffGOX2rCVu9FFUvHMtUEa4sr39G1K5wMG9500jGvvffurthBw7RZebjhwDh+A==",
   "success": true,
   "projectFilePath": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\RestAPIDemo\\RestAPIDemo.csproj",
   "expectedPackageFiles": [
@@ -81,8 +81,7 @@
     "C:\\Users\\Simeon Gunev\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
     "C:\\Users\\Simeon Gunev\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\Simeon Gunev\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Simeon Gunev\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Simeon Gunev\\.nuget\\packages\\webserver\\1.0.0\\webserver.1.0.0.nupkg.sha512"
+    "C:\\Users\\Simeon Gunev\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

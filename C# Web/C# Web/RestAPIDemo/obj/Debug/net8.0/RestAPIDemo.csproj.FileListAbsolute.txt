@@ -128,9 +128,9 @@ D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo.AssemblyInfo.cs
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo.csproj.CoreCompileInputs.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo.sourcelink.json
-D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo.csproj.CopyComplete
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\refint\RestAPIDemo.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo.pdb
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPIDemo.genruntimeconfig.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\ref\RestAPIDemo.dll
+D:\Projects\ITBP Practice\C# Web\C# Web\RestAPIDemo\obj\Debug\net8.0\RestAPID.A538C8DD.Up2Date

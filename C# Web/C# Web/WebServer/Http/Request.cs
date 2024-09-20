@@ -15,8 +15,9 @@ namespace WebServer.Http
         public string Body { get; private set; }
         public IReadOnlyDictionary<string, string> Form { get; private set; }
         public Session Session { get; private set; }
+        public string ClientIp { get; private set; }
 
-        public static Request Parse(string request)
+        public static Request Parse(string request, string clientIp)
         {
             string[] requestLines = request.Split("\r\n");
 
@@ -46,6 +47,7 @@ namespace WebServer.Http
                 Body = body,
                 Form = form,
                 Session = session,
+                ClientIp = clientIp
             };
         }
 
