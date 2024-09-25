@@ -9,7 +9,7 @@ namespace RestAPIDemo.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=SIMEON-PC\\SQLEXPRESS;Initial Catalog=EFCore/Task3;Integrated Security=True;Encrypt=False");
+            optionsBuilder.UseSqlServer("Data Source=GUNEVI-LAPTOP\\SQLEXPRESS;Initial Catalog=EFCore/Task3;Integrated Security=True;Encrypt=False");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

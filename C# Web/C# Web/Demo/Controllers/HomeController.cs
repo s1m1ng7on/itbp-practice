@@ -2,6 +2,7 @@
 using WebServer.Http;
 using Demo.Resources;
 using System.Text;
+using System.Web;
 
 namespace Demo.Controllers
 {
@@ -29,25 +30,36 @@ namespace Demo.Controllers
 
         public Response DownloadFormAction() => File("D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Resources\\module27.html");
 
-        /*public Response Cookies()
+        public Response Cookies()
         {
-            Response response = new Response();
+            string body;
+            bool requestHasCookies = Request.Cookies.Any(c => c.Name != WebServer.Http.Session.CookieName);
 
-            string result;
+            body = requestHasCookies
+                ? $"<h1>Cookies</h1>\n" +
+                    $"{string.Join("<br>", Request.Cookies.Select(c => $"Cookie: {HttpUtility.HtmlEncode(c.Name)}={HttpUtility.HtmlEncode(c.Value)}"))}"
+                : "<h1>Cookies set!</h1>";
 
-            if (request.Cookies.Any(c => c.Name != Session.CookieName))
+            CookieCollection cookies = null;
+            if (!requestHasCookies)
             {
-                result = $"<h1>Cookies</h1>\n" +
-                    $"{string.Join("<br>", request.Cookies.Select(c => $"Cookie: {HttpUtility.HtmlEncode(c.Name)}={HttpUtility.HtmlEncode(c.Value)}"))}";
-            }
-            else
-            {
-                result = "<h1>Cookies set!</h1>";
-                response.Cookies.Add("My-Cookie", "Secret Value");
-                response.Cookies.Add("My-Cookie2", "More Secret Value");
+                cookies = new CookieCollection
+                {
+                    { "My-Cookie", "My-Value" },
+                    { "My-Second-Cookie", "My-Second-Value" }
+                };
             }
 
-            response.Body = result;
-        });*/
+            return Html(body, cookies);
+        }
+
+        public Response Session()
+        {
+            string body = Request.Session.ContainsKey(WebServer.Http.Session.CurrentDateKey)
+                ? $"Stored date: {Request.Session[WebServer.Http.Session.CurrentDateKey]}!"
+                : "Current date stored!";
+
+            return Text(body);
+        }
     }
 }

@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\servers\\logging\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\servers\\logging\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\responses\\viewresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\responses\\viewresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\servers\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\servers\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\responses\\fileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\responses\\fileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\http\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\http\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\http\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\http\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\demo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\http\\contenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\http\\contenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\responses\\contentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\responses\\contentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\responses\\jsonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\responses\\jsonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\demo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\servers\\logging\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\servers\\logging\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\http\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\http\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\demo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\servers\\logging\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\servers\\logging\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,84 +46,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContentResponse.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\ContentResponse.cs",
-              "RelativeDocumentMoniker": "WebServer\\Responses\\ContentResponse.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\ContentResponse.cs",
-              "RelativeToolTip": "WebServer\\Responses\\ContentResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ViewResponse.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\ViewResponse.cs",
+              "RelativeDocumentMoniker": "WebServer\\Responses\\ViewResponse.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\ViewResponse.cs",
+              "RelativeToolTip": "WebServer\\Responses\\ViewResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T09:46:13.597Z",
+              "WhenOpened": "2024-09-25T09:51:39.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Request.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Request.cs",
-              "RelativeDocumentMoniker": "WebServer\\Http\\Request.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Request.cs",
-              "RelativeToolTip": "WebServer\\Http\\Request.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAABMAAABDAAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T09:28:18.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContentType.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\ContentType.cs",
-              "RelativeDocumentMoniker": "WebServer\\Http\\ContentType.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\ContentType.cs",
-              "RelativeToolTip": "WebServer\\Http\\ContentType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:57:05.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAB0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:36:04.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Response.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Response.cs",
-              "RelativeDocumentMoniker": "WebServer\\Http\\Response.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Response.cs",
-              "RelativeToolTip": "WebServer\\Http\\Response.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAjwBMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:54:11.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileResponse.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\FileResponse.cs",
-              "RelativeDocumentMoniker": "WebServer\\Responses\\FileResponse.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\FileResponse.cs",
-              "RelativeToolTip": "WebServer\\Responses\\FileResponse.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAwAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:34:02.77Z",
+              "WhenOpened": "2024-09-25T08:58:22.046Z",
               "EditorCaption": ""
             },
             {
@@ -142,27 +82,27 @@
               "RelativeDocumentMoniker": "WebServer\\Servers\\Server.cs",
               "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Server.cs",
               "RelativeToolTip": "WebServer\\Servers\\Server.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAA1AAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAjwF4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T07:58:55.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Log.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Logging\\Log.cs",
-              "RelativeDocumentMoniker": "WebServer\\Servers\\Logging\\Log.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Logging\\Log.cs",
-              "RelativeToolTip": "WebServer\\Servers\\Logging\\Log.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAtwCcAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Controllers\\Controller.cs",
+              "RelativeDocumentMoniker": "WebServer\\Controllers\\Controller.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Controllers\\Controller.cs",
+              "RelativeToolTip": "WebServer\\Controllers\\Controller.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAtwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T09:27:55.341Z",
+              "WhenOpened": "2024-09-25T07:23:35.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Logging\\Logger.cs",
               "RelativeDocumentMoniker": "WebServer\\Servers\\Logging\\Logger.cs",
@@ -170,33 +110,57 @@
               "RelativeToolTip": "WebServer\\Servers\\Logging\\Logger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T09:34:21.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T09:34:21.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JsonResponse.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\JsonResponse.cs",
-              "RelativeDocumentMoniker": "WebServer\\Responses\\JsonResponse.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\JsonResponse.cs",
-              "RelativeToolTip": "WebServer\\Responses\\JsonResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T10:47:14.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Startup.cs",
               "RelativeDocumentMoniker": "Demo\\Startup.cs",
               "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Startup.cs",
               "RelativeToolTip": "Demo\\Startup.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAtwBsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T07:58:14.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Response.cs",
+              "RelativeDocumentMoniker": "WebServer\\Http\\Response.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Response.cs",
+              "RelativeToolTip": "WebServer\\Http\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T06:54:11.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Log.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Logging\\Log.cs",
+              "RelativeDocumentMoniker": "WebServer\\Servers\\Logging\\Log.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Logging\\Log.cs",
+              "RelativeToolTip": "WebServer\\Servers\\Logging\\Log.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAtwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:27:55.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Demo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAACwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T09:28:51.946Z",
               "EditorCaption": ""
             }
           ]

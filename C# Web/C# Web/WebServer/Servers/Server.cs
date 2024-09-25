@@ -57,9 +57,6 @@ namespace WebServer.Servers
                     response.Headers.Add("Environment", Info.OperatingSystem);
                     response.Headers.Add("Date", DateTime.Now.ToString());
 
-                    if (response.PreRenderAction != null)
-                        response.PreRenderAction(request, response);
-
                     AddSession(request, response);
 
                     await WriteResponse(stream, response);
