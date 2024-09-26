@@ -1,8 +1,8 @@
 ﻿using WebServer.Controllers;
 using WebServer.Http;
-using Demo.Resources;
 using System.Text;
 using System.Web;
+using Demo.Models;
 
 namespace Demo.Controllers
 {
@@ -12,20 +12,24 @@ namespace Demo.Controllers
 
         public Response Index() => Text("Hello from the server!");
         public Response Home() => Text("Home sweet home");
-        public Response About() => Html("<h1>ABOUT US</h1>What about us???");
-        public Response Form() => Html(Pages.Form);
-        public Response Download() => Html(Pages.DownloadForm);
+        public Response About() => View();
+        public Response Form() => View();
+        public Response Download() => View();
         public Response GoToYoutube() => Redirect("https://youtube.com");
         public Response GoToDeltaForce() => Redirect("https://www.youtube.com/watch?v=JwVqgS9QXYg");
 
         public Response FormPost()
         {
-            StringBuilder formData = new StringBuilder();
+            string name = Request.Form["Name"];
+            int age = int.Parse(Request.Form["Age"]);
 
-            foreach (var (key, value) in Request.Form)
-                formData.AppendLine($"{key} - {value}");
+            FormViewModel formViewModel = new FormViewModel()
+            {
+                Name = name,
+                Age = age,
+            };
 
-            return Text(formData.ToString());
+            return View(formViewModel);
         }
 
         public Response DownloadFormAction() => File("D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Resources\\module27.html");

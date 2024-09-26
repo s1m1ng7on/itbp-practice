@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>WebServer</authors>
     <description>Package Description</description>
-    <repository type="git" commit="b3187438390ec3b858495b03718cdcf3dd87b24e" />
+    <repository type="git" commit="4b40317e8e270796e703f4655e658ec5bf009625" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="HtmlAgilityPack" version="1.11.61" exclude="Build,Analyzers" />

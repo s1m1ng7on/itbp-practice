@@ -18,6 +18,10 @@ D:\Projects\ITBP Practice\C# Web\C# Web\Demo\obj\Debug\net8.0\Demo.genruntimecon
 D:\Projects\ITBP Practice\C# Web\C# Web\Demo\obj\Debug\net8.0\ref\Demo.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\WebServer.pdb
 D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Projects\ITBP Practice\C# Web\C# Web\Demo\obj\Debug\net8.0\Demo.Resources.Pages.resources
-D:\Projects\ITBP Practice\C# Web\C# Web\Demo\obj\Debug\net8.0\Demo.csproj.GenerateResource.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\Demo\obj\Debug\net8.0\Demo.csproj.Up2Date
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Home\About.cshtml
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Home\Download.cshtml
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Home\Form.cshtml
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\User\Login.cshtml
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Home\FormPost.cshtml
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\User\Logout.cshtml
