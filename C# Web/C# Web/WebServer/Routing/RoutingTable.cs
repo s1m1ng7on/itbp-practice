@@ -20,6 +20,7 @@ namespace WebServer.Routing
         {
             Guard.AgainstNull(path, nameof(path));
             Guard.AgainstNull(responseFunction, nameof(responseFunction));
+            Guard.AgainstDuplicatedKey(routes[method], path, method.ToString());
 
             routes[method][path] = responseFunction;
 

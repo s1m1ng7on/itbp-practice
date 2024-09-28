@@ -1,7 +1,4 @@
 ﻿using Demo.Controllers;
-using System.Web;
-using WebServer.Http;
-using WebServer.Resources;
 using WebServer.Routing;
 
 namespace WebServer

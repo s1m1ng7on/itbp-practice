@@ -14,7 +14,7 @@
         public static void AgainstDuplicatedKey<T, V>(IDictionary<T, V> dictionary, T key, string name)
         {
             if (dictionary.ContainsKey(key))
-                throw new ArgumentException($"{name} already contains key {key.ToString()}");
+                throw new ArgumentException($"{name} already contains key {key}");
         }
     }
 }
