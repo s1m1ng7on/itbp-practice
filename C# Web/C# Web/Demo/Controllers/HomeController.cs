@@ -3,6 +3,8 @@ using WebServer.Http;
 using System.Text;
 using System.Web;
 using Demo.Models;
+using WebServer.Attributes;
+using WebServer.Models;
 
 namespace Demo.Controllers
 {
@@ -10,14 +12,25 @@ namespace Demo.Controllers
     {
         public HomeController(Request request) : base(request) { }
 
-        public Response Index() => Text("Hello from the server!");
-        public Response Home() => Text("Home sweet home");
-        public Response About() => View();
-        public Response Form() => View();
-        public Response Download() => View();
-        public Response GoToYoutube() => Redirect("https://youtube.com");
-        public Response GoToDeltaForce() => Redirect("https://www.youtube.com/watch?v=JwVqgS9QXYg");
+        [GET] public Response Index() => Text("Hello from the server!");
+        [GET] public Response Student(string name, int age) => Text($"I'm {name} and I'm {age} years old!");
+        [GET] public Response Home() => Text("Home sweet home");
+        [GET] public Response About() => View();
+        [GET] public Response Form() => View();
+        [GET] public Response Download() => View();
 
+        [GET] public Response Test()
+            => View(new ViewModelEnumerable<FormViewModel>
+            {
+                new() { Name = "Simeon", Age = 18 },
+                new() { Name = "Galina", Age = 3 },
+                new() { Name = "Duda", Age = 5 }
+            });
+
+        [GET] public Response Youtube() => Redirect("https://youtube.com");
+        [GET] public Response DeltaForce() => Redirect("https://www.youtube.com/watch?v=JwVqgS9QXYg");
+
+        [POST]
         public Response FormPost()
         {
             string name = Request.Form["Name"];
@@ -32,8 +45,9 @@ namespace Demo.Controllers
             return View(formViewModel);
         }
 
-        public Response DownloadFormAction() => File("D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Resources\\module27.html");
+        [POST] public Response DownloadFormAction() => File("D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Resources\\module27.html");
 
+        [GET]
         public Response Cookies()
         {
             string body;
@@ -57,6 +71,7 @@ namespace Demo.Controllers
             return Html(body, cookies);
         }
 
+        [GET]
         public Response Session()
         {
             string body = Request.Session.ContainsKey(WebServer.Http.Session.CurrentDateKey)

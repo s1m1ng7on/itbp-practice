@@ -1,4 +1,5 @@
-﻿using WebServer.Controllers;
+﻿using WebServer.Attributes;
+using WebServer.Controllers;
 using WebServer.Http;
 
 namespace Demo.Controllers
@@ -10,9 +11,11 @@ namespace Demo.Controllers
 
         public UserController(Request request) : base(request) { }
 
-        public Response Login() => View();
+        [GET] [Authorize] public Response Index() => Html($"<h3>Currently logged-in user is with username '{Username}'</h3>");
+        [GET] public Response Login() => View();
 
         //TO FIX SESSION CLEAR
+        [POST]
         public Response LoginAction()
         {
             Request.Session.Clear();
@@ -37,19 +40,11 @@ namespace Demo.Controllers
             }
         }
 
+        [GET]
         public Response Logout()
         {
             Request.Session.Clear();
             return View();
-        }
-
-        public Response User()
-        {
-            string body = Request.Session.ContainsKey(Session.UserKey)
-                ? $"<h3>Currently logged-in user is with username '{Username}'</h3>"
-                : "<h3>You should first log in - <a href=\"/login\">Login</a></h3>";
-
-            return Html(body);
         }
     }
 }

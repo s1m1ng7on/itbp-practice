@@ -25,3 +25,5 @@ D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Home\Form.cs
 D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\User\Login.cshtml
 D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Home\FormPost.cshtml
 D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\User\Logout.cshtml
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Layout.cshtml
+D:\Projects\ITBP Practice\C# Web\C# Web\Demo\bin\Debug\net8.0\Views\Home\Test.cshtml

@@ -10,10 +10,10 @@ namespace WebServer.Routing
 
         public RoutingTable() => routes = new()
         {
-            [Method.GET] = new(),
-            [Method.POST] = new(),
-            [Method.PUT] = new(),
-            [Method.DELETE] = new(),
+            [Method.GET] = new(StringComparer.InvariantCultureIgnoreCase),
+            [Method.POST] = new(StringComparer.InvariantCultureIgnoreCase),
+            [Method.PUT] = new(StringComparer.InvariantCultureIgnoreCase),
+            [Method.DELETE] = new(StringComparer.InvariantCultureIgnoreCase),
         };
 
         public IRoutingTable Map(Method method, string path, Func<Request, Response> responseFunction)

@@ -1,4 +1,5 @@
 ﻿using System.Web;
+using WebServer.Common;
 using WebServer.Servers;
 
 namespace WebServer.Http
@@ -9,16 +10,19 @@ namespace WebServer.Http
 
         public Method Method { get; private set; }
         public string Path { get; private set; }
-        public ParameterCollection Parameters { get; private set; }
+        public IReadOnlyDictionary<string, string> Parameters { get; private set; }
         public HeaderCollection Headers { get; private set; }
         public CookieCollection Cookies { get; private set; }
         public string Body { get; private set; }
         public IReadOnlyDictionary<string, string> Form { get; private set; }
         public Session Session { get; private set; }
+        public static IServiceCollection ServiceCollection { get; private set;}
         public string ClientIp { get; private set; }
 
-        public static Request Parse(string request, string clientIp)
+        public static Request Parse(string request, IServiceCollection serviceCollection, string clientIp)
         {
+            ServiceCollection = serviceCollection;
+
             string[] requestLines = request.Split("\r\n");
 
             string[] requestLineArgs = requestLines.First().Split(" ");
@@ -30,7 +34,7 @@ namespace WebServer.Http
             string path = pathAndQuery[0].ToLower();
             string? query = pathAndQuery.Length > 1 ? HttpUtility.UrlDecode(pathAndQuery[1]) : null;
 
-            ParameterCollection parameters = ParseParameters(query);
+            Dictionary<string, string> parameters = ParseParameters(query);
             HeaderCollection headers = ParseHeaders(requestLines.Skip(1).ToArray());
             CookieCollection cookies = ParseCookies(headers);
             Session session = GetSession(cookies);
@@ -63,9 +67,9 @@ namespace WebServer.Http
             }
         }
 
-        private static ParameterCollection ParseParameters(string query)
+        private static Dictionary<string, string> ParseParameters(string query)
         {
-            ParameterCollection parameters = new ParameterCollection();
+            Dictionary<string, string> parameters = new Dictionary<string, string>();
 
             if (query != null)
             {

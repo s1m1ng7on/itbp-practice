@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using WebServer.Common;
 using WebServer.Http;
 using WebServer.Routing;
 using WebServer.Servers.Logging;
@@ -15,11 +16,17 @@ namespace WebServer.Servers
 
         public ServerInfo Info { get; init; }
 
+        public readonly IServiceCollection ServiceCollection;
+
         public Server(string name, string _ipAddress, int _port, Action<IRoutingTable> routingTableConfiguration)
         {
             Info = new ServerInfo(name, _ipAddress, _port, "1.0.0");
+
             serverListener = new TcpListener(IPAddress.Parse(Info.IPAddress), Info.Port);
+
             routingTableConfiguration(routingTable = new RoutingTable());
+            ServiceCollection = new ServiceCollection();
+
             logger = new Logger($"{Info.StartTime}:{Info.Name}");
         }
 
@@ -47,7 +54,7 @@ namespace WebServer.Servers
 
                     string requestText = await ReadRequest(stream);
 
-                    Request request = Request.Parse(requestText, clientIp);
+                    Request request = Request.Parse(requestText, ServiceCollection, clientIp);
 
                     Response response = routingTable.MatchRequest(request);
 
