@@ -12,7 +12,7 @@ namespace RestAPIDemo.Controllers
         public CountryController(Request request) : base(request)
             => dbContext = new Context();
 
-        public Response All()
+        /*public Response All()
         {
             if (Request.Parameters.Contains("c"))
                 return Json(dbContext.Countries.FirstOrDefault(c => c.Code == Request.Parameters["c"]));
@@ -21,7 +21,7 @@ namespace RestAPIDemo.Controllers
                 return Json(dbContext.Countries.FirstOrDefault(c => c.Name == Request.Parameters["n"]));
 
             return Json(dbContext.Countries.ToArray());
-        }
+        }*/
 
         public Response AddCountryAction()
         {

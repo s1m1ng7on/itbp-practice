@@ -24,6 +24,9 @@
     <None Update="Views\Home\FormPost.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Views\Home\Tags.cshtml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Views\Home\Test.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

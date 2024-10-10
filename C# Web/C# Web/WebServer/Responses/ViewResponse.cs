@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Reflection.Metadata.Ecma335;
 using WebServer.Models;
+using WebServer.Views;
 
 namespace WebServer.Responses
 {
@@ -22,16 +23,16 @@ namespace WebServer.Responses
                 string layoutContent = File.ReadAllText(layoutPath);
 
                 viewContent = layoutContent
-                    .Replace("{{Title}}", "Title")
-                    .Replace("{{RenderBody}}", viewContent);
+                    .Replace("{{Title}}", $"{controllerName} | {viewName}")
+                    .Replace("{{Body}}", viewContent);
             }
 
             if (viewModel != null)
             {
-                viewContent = PopulateModel(viewContent, viewModel);
+                viewContent = viewContent.PopulateModel(viewModel);
 
-                if (viewModel is IViewModel)
-                    viewContent = PopulateEnumerableModel(viewContent, viewModel);
+                /*if (viewModel is IViewModel)
+                    viewContent = PopulateEnumerableModel(viewContent, viewModel);*/
             }
 
             Body = viewContent;
@@ -57,29 +58,7 @@ namespace WebServer.Responses
             return (layoutPath, layoutExists);
         }
 
-        private string PopulateModel(string viewContent, IViewModel viewModel)
-        {
-            var viewModelProperties = viewModel
-                .GetType()
-                .GetProperties()
-                .Select(p => new
-                {
-                    p.Name,
-                    Value = p.GetValue(viewModel),
-                });
-
-            foreach (var property in viewModelProperties)
-            {
-                const string openingBrackets = "{{";
-                const string closingBrackets = "}}";
-
-                viewContent = viewContent.Replace($"{openingBrackets}{property.Name}{closingBrackets}", property.Value.ToString());
-            }
-
-            return viewContent;
-        }
-
-        private string PopulateEnumerableModel(string viewContent, IViewModel viewModels)
+        /*private string PopulateEnumerableModel(string viewContent, IViewModel viewModels)
         {
             List<string> lines = viewContent.Split('\n').Select(l => l.Trim()).ToList();
 
@@ -119,6 +98,6 @@ namespace WebServer.Responses
 
             viewContent.Replace(loopTemplate, result);
             return viewContent;
-        }
+        }*/
     }
 }

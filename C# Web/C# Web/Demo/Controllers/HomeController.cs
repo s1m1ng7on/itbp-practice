@@ -27,6 +27,24 @@ namespace Demo.Controllers
                 new() { Name = "Duda", Age = 5 }
             });
 
+        [GET]
+        public Response Tags()
+            => View(new FormViewModel
+            {
+                Name = "Simeon",
+                Age = 18,
+                Cat = new Cat()
+                {
+                    Name = "Galina",
+                    Age = 3,
+                    Breed = new Breed()
+                    {
+                        Name = "British",
+                        Color = "Gray"
+                    }
+                }
+            });
+
         [GET] public Response Youtube() => Redirect("https://youtube.com");
         [GET] public Response DeltaForce() => Redirect("https://www.youtube.com/watch?v=JwVqgS9QXYg");
 
