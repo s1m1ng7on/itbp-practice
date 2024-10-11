@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using WebServer.Attributes;
 using WebServer.Controllers;
 using WebServer.Http;
@@ -31,6 +32,38 @@ namespace WebServer.Routing
                 routingTable.Map(method, path, responseFunction);
 
                 MapDefaultRoutes(routingTable, method, controllerName, actionName, responseFunction);
+            }
+
+            return routingTable;
+        }
+
+        public static IRoutingTable MapStaticFiles(this IRoutingTable routingTable, string folder = "wwwroot")
+        {
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string staticFilesFolder = Path.Combine(currentDirectory, folder);
+
+            if (!Directory.Exists(staticFilesFolder))
+                return routingTable;
+
+            string[] staticFiles = Directory.GetFiles(staticFilesFolder, "*.*", SearchOption.AllDirectories);
+
+            foreach (string file in staticFiles)
+            {
+                string relativePath = Path.GetRelativePath(staticFilesFolder, file);
+                string urlPath = $"/{relativePath.Replace("\\", "/")}";
+
+                routingTable.Map(Method.GET, urlPath, request =>
+                {
+                    byte[] content = File.ReadAllBytes(file);
+                    string extension = Path.GetExtension(file).Trim('.');
+                    string name = Path.GetFileName(file);
+                    string contentType = ContentType.GetByFileExtension(extension);
+
+                    return new Response(StatusCode.OK)
+                    {
+                        FileContent = content
+                    };
+                });
             }
 
             return routingTable;

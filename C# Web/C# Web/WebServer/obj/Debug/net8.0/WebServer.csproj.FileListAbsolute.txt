@@ -22,8 +22,6 @@ D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.dep
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.dll
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\bin\Debug\net8.0\WebServer.pdb
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.AssemblyReference.cache
-D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.Resources.Pages.resources
-D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.csproj.GenerateResource.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.AssemblyInfoInputs.cache
 D:\Projects\ITBP Practice\C# Web\C# Web\WebServer\obj\Debug\net8.0\WebServer.AssemblyInfo.cs

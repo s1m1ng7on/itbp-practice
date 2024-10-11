@@ -1,6 +1,6 @@
 ﻿using System.Web;
 using WebServer.Common;
-using WebServer.Servers;
+using WebServer.Views;
 
 namespace WebServer.Http
 {
@@ -17,11 +17,13 @@ namespace WebServer.Http
         public IReadOnlyDictionary<string, string> Form { get; private set; }
         public Session Session { get; private set; }
         public static IServiceCollection ServiceCollection { get; private set;}
+        public static ViewCollection Views { get; set; }
         public string ClientIp { get; private set; }
 
-        public static Request Parse(string request, IServiceCollection serviceCollection, string clientIp)
+        public static Request Parse(string request, IServiceCollection serviceCollection, ViewCollection viewCollection, string clientIp)
         {
             ServiceCollection = serviceCollection;
+            Views = viewCollection;
 
             string[] requestLines = request.Split("\r\n");
 

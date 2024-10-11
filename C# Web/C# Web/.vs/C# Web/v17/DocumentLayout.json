@@ -3,68 +3,44 @@
   "WorkspaceRootPath": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\models\\viewextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\models\\viewextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\views\\viewextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\views\\viewextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02337D94-1A7B-4B83-9029-B733CCF32E92}|SharedTrip\\SharedTrip.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\sharedtrip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02337D94-1A7B-4B83-9029-B733CCF32E92}|SharedTrip\\SharedTrip.csproj|solutionrelative:sharedtrip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\responses\\viewresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\responses\\viewresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\models\\viewmodelenumerable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\models\\viewmodelenumerable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02337D94-1A7B-4B83-9029-B733CCF32E92}|SharedTrip\\SharedTrip.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\sharedtrip\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02337D94-1A7B-4B83-9029-B733CCF32E92}|SharedTrip\\SharedTrip.csproj|solutionrelative:sharedtrip\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\demo\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\views\\viewcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\views\\viewcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\demo\\views\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\views\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\demo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\attributes\\authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\attributes\\authorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\routing\\routingtableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\routing\\routingtableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\routing\\routingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\routing\\routingtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\servers\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\servers\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\servers\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\common\\servicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\common\\servicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\views\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\views\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\http\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\http\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|d:\\projects\\itbp practice\\c# web\\c# web\\webserver\\routing\\routingtableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\routing\\routingtableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\demo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D419732-AC46-459B-A6A0-4CCA961E2A41}|Demo\\Demo.csproj|solutionrelative:demo\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\webserver\\common\\iservicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2BFC39-E55B-43BC-BE8F-B0C286E1076C}|WebServer\\WebServer.csproj|solutionrelative:webserver\\common\\iservicecollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02337D94-1A7B-4B83-9029-B733CCF32E92}|SharedTrip\\SharedTrip.csproj|D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\sharedtrip\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02337D94-1A7B-4B83-9029-B733CCF32E92}|SharedTrip\\SharedTrip.csproj|solutionrelative:sharedtrip\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,56 +50,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewExtension.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Models\\ViewExtension.cs",
-              "RelativeDocumentMoniker": "WebServer\\Models\\ViewExtension.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Models\\ViewExtension.cs",
-              "RelativeToolTip": "WebServer\\Models\\ViewExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T10:56:38.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ViewModelEnumerable.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Models\\ViewModelEnumerable.cs",
-              "RelativeDocumentMoniker": "WebServer\\Models\\ViewModelEnumerable.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Models\\ViewModelEnumerable.cs",
-              "RelativeToolTip": "WebServer\\Models\\ViewModelEnumerable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T10:22:34.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Controller.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Controllers\\Controller.cs",
-              "RelativeDocumentMoniker": "WebServer\\Controllers\\Controller.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Controllers\\Controller.cs",
-              "RelativeToolTip": "WebServer\\Controllers\\Controller.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAtwCQAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T09:26:31.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Test.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Views\\Home\\Test.cshtml",
-              "RelativeDocumentMoniker": "Demo\\Views\\Home\\Test.cshtml",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Views\\Home\\Test.cshtml",
-              "RelativeToolTip": "Demo\\Views\\Home\\Test.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\SharedTrip\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SharedTrip\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\SharedTrip\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SharedTrip\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T09:17:00.301Z"
+              "WhenOpened": "2024-10-11T12:28:33.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -133,142 +73,113 @@
               "RelativeDocumentMoniker": "WebServer\\Responses\\ViewResponse.cs",
               "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Responses\\ViewResponse.cs",
               "RelativeToolTip": "WebServer\\Responses\\ViewResponse.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAArAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAtwCsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T07:54:00.97Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Views\\Layout.cshtml",
-              "RelativeDocumentMoniker": "Demo\\Views\\Layout.cshtml",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Views\\Layout.cshtml",
-              "RelativeToolTip": "Demo\\Views\\Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T07:51:03.966Z"
+              "WhenOpened": "2024-10-11T06:29:46.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAtwBYAAAAvAAAA",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\SharedTrip\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SharedTrip\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\SharedTrip\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SharedTrip\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T09:28:51.946Z",
+              "WhenOpened": "2024-10-10T08:59:06.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Demo\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Demo\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAeAAAA",
+              "DocumentIndex": 0,
+              "Title": "ViewExtension.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Views\\ViewExtension.cs",
+              "RelativeDocumentMoniker": "WebServer\\Views\\ViewExtension.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Views\\ViewExtension.cs",
+              "RelativeToolTip": "WebServer\\Views\\ViewExtension.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAtwDsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T07:39:59.263Z"
+              "WhenOpened": "2024-10-11T07:01:05.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "ViewCollection.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Views\\ViewCollection.cs",
+              "RelativeDocumentMoniker": "WebServer\\Views\\ViewCollection.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Views\\ViewCollection.cs",
+              "RelativeToolTip": "WebServer\\Views\\ViewCollection.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAjwCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:41:07.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Server.cs",
               "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Server.cs",
               "RelativeDocumentMoniker": "WebServer\\Servers\\Server.cs",
               "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Servers\\Server.cs",
               "RelativeToolTip": "WebServer\\Servers\\Server.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADoAAAAUAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T08:20:30.228Z"
+              "WhenOpened": "2024-10-11T10:11:02.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Startup.cs",
-              "RelativeDocumentMoniker": "Demo\\Startup.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\Demo\\Startup.cs",
-              "RelativeToolTip": "Demo\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABLAAAA",
+              "DocumentIndex": 3,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Controllers\\Controller.cs",
+              "RelativeDocumentMoniker": "WebServer\\Controllers\\Controller.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Controllers\\Controller.cs",
+              "RelativeToolTip": "WebServer\\Controllers\\Controller.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAtwCMAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T11:23:10.354Z"
+              "WhenOpened": "2024-10-11T09:53:27.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "View.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Views\\View.cs",
+              "RelativeDocumentMoniker": "WebServer\\Views\\View.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Views\\View.cs",
+              "RelativeToolTip": "WebServer\\Views\\View.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T09:18:38.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AuthorizeAttribute.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Attributes\\AuthorizeAttribute.cs",
-              "RelativeDocumentMoniker": "WebServer\\Attributes\\AuthorizeAttribute.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Attributes\\AuthorizeAttribute.cs",
-              "RelativeToolTip": "WebServer\\Attributes\\AuthorizeAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T07:38:19.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "RoutingTableExtension.cs",
               "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Routing\\RoutingTableExtension.cs",
               "RelativeDocumentMoniker": "WebServer\\Routing\\RoutingTableExtension.cs",
               "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Routing\\RoutingTableExtension.cs",
               "RelativeToolTip": "WebServer\\Routing\\RoutingTableExtension.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAtwFgAAAAYAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAtwDYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T07:18:37.99Z"
+              "WhenOpened": "2024-10-11T10:02:16.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoutingTable.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Routing\\RoutingTable.cs",
-              "RelativeDocumentMoniker": "WebServer\\Routing\\RoutingTable.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Routing\\RoutingTable.cs",
-              "RelativeToolTip": "WebServer\\Routing\\RoutingTable.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAjwCcAAAAMAAAA",
+              "DocumentIndex": 9,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\SharedTrip\\Startup.cs",
+              "RelativeDocumentMoniker": "SharedTrip\\Startup.cs",
+              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\SharedTrip\\Startup.cs",
+              "RelativeToolTip": "SharedTrip\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T07:07:26.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Request.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Request.cs",
-              "RelativeDocumentMoniker": "WebServer\\Http\\Request.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Http\\Request.cs",
-              "RelativeToolTip": "WebServer\\Http\\Request.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T08:18:26.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServiceCollection.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Common\\ServiceCollection.cs",
-              "RelativeDocumentMoniker": "WebServer\\Common\\ServiceCollection.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Common\\ServiceCollection.cs",
-              "RelativeToolTip": "WebServer\\Common\\ServiceCollection.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAjwDUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T07:33:21.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IServiceCollection.cs",
-              "DocumentMoniker": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Common\\IServiceCollection.cs",
-              "RelativeDocumentMoniker": "WebServer\\Common\\IServiceCollection.cs",
-              "ToolTip": "D:\\Projects\\ITBP Practice\\C# Web\\C# Web\\WebServer\\Common\\IServiceCollection.cs",
-              "RelativeToolTip": "WebServer\\Common\\IServiceCollection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T07:28:26.002Z"
+              "WhenOpened": "2024-10-10T08:57:52.914Z"
             }
           ]
         }

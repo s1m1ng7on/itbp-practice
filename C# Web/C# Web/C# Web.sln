@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServer", "WebServer\WebS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{0D419732-AC46-459B-A6A0-4CCA961E2A41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestAPIDemo", "RestAPIDemo\RestAPIDemo.csproj", "{7AAFDEDE-93A7-47B4-854C-C306D7176BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestAPIDemo", "RestAPIDemo\RestAPIDemo.csproj", "{7AAFDEDE-93A7-47B4-854C-C306D7176BA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedTrip", "SharedTrip\SharedTrip.csproj", "{02337D94-1A7B-4B83-9029-B733CCF32E92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7AAFDEDE-93A7-47B4-854C-C306D7176BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AAFDEDE-93A7-47B4-854C-C306D7176BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AAFDEDE-93A7-47B4-854C-C306D7176BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02337D94-1A7B-4B83-9029-B733CCF32E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02337D94-1A7B-4B83-9029-B733CCF32E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02337D94-1A7B-4B83-9029-B733CCF32E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02337D94-1A7B-4B83-9029-B733CCF32E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

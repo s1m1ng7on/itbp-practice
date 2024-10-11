@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Reflection.Metadata.Ecma335;
+﻿using WebServer.Http;
 using WebServer.Models;
 using WebServer.Views;
 
@@ -9,7 +8,7 @@ namespace WebServer.Responses
     {
         private const char PathSeparator = '/';
 
-        public ViewResponse(string viewName, string controllerName, IViewModel viewModel = null) : base(string.Empty)
+        /*public ViewResponse(string viewName, string controllerName, IViewModel viewModel = null) : base(string.Empty)
         {
             if (!viewName.Contains(PathSeparator))
                 viewName = controllerName + PathSeparator + viewName;
@@ -24,18 +23,25 @@ namespace WebServer.Responses
 
                 viewContent = layoutContent
                     .Replace("{{Title}}", $"{controllerName} | {viewName}")
-                    .Replace("{{Body}}", viewContent);
+                    .Replace("{{RenderBody}}", viewContent);
             }
 
-            if (viewModel != null)
+            viewContent = viewContent.PopulateView();
+
+            *//*if (viewModel != null)
             {
                 viewContent = viewContent.PopulateModel(viewModel);
 
-                /*if (viewModel is IViewModel)
-                    viewContent = PopulateEnumerableModel(viewContent, viewModel);*/
-            }
+                *//*if (viewModel is IViewModel)
+                    viewContent = PopulateEnumerableModel(viewContent, viewModel);*//*
+            }*//*
 
             Body = viewContent;
+        }*/
+
+        public ViewResponse(View view, IViewModel model) : base(string.Empty)
+        {
+            Body = view.PopulateView(model);
         }
 
         private (string, bool) FindLayout()

@@ -7,7 +7,7 @@ namespace WebServer.Controllers
 {
     public class Controller
     {
-        protected Request Request { get; set; }
+        protected Request Request { get; init; }
 
         public Controller(Request request)
         {
@@ -33,8 +33,9 @@ namespace WebServer.Controllers
         protected Response Json(object data) => new JsonResponse([data]);
         protected Response Redirect(string url) => new RedirectResponse(url);
         protected Response File(string path) => new FileResponse(path);
-        protected Response View([CallerMemberName] string viewName = "") => new ViewResponse(viewName, GetControllerName());
-        protected Response View(IViewModel viewModel, [CallerMemberName] string viewName = "") => new ViewResponse(viewName, GetControllerName(), viewModel);
+        protected Response View(IViewModel model = null, [CallerMemberName] string viewName = "") => new ViewResponse(Request.Views[GetControllerName(), viewName], model);
+        //protected Response View([CallerMemberName] string viewName = "") => new ViewResponse(viewName, GetControllerName());
+        //protected Response View(IViewModel viewModel, [CallerMemberName] string viewName = "") => new ViewResponse(viewName, GetControllerName(), viewModel);
         protected Response NotFound() => new NotFoundResponse();
 
         private string GetControllerName()

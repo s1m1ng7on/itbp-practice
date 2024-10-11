@@ -5,10 +5,11 @@
     <version>1.0.0</version>
     <authors>WebServer</authors>
     <description>Package Description</description>
-    <repository type="git" commit="7b2026945988e11076945d3b14e369fd331e338d" />
+    <repository type="git" commit="b231b64dbd538a08a23d54997dbd130d242449cf" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="HtmlAgilityPack" version="1.11.61" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CodeAnalysis.CSharp.Scripting" version="4.11.0" exclude="Build,Analyzers" />
         <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>

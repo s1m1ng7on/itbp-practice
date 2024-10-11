@@ -5,6 +5,7 @@ using WebServer.Common;
 using WebServer.Http;
 using WebServer.Routing;
 using WebServer.Servers.Logging;
+using WebServer.Views;
 
 namespace WebServer.Servers
 {
@@ -17,6 +18,7 @@ namespace WebServer.Servers
         public ServerInfo Info { get; init; }
 
         public readonly IServiceCollection ServiceCollection;
+        public readonly ViewCollection ViewCollection;
 
         public Server(string name, string _ipAddress, int _port, Action<IRoutingTable> routingTableConfiguration)
         {
@@ -26,6 +28,7 @@ namespace WebServer.Servers
 
             routingTableConfiguration(routingTable = new RoutingTable());
             ServiceCollection = new ServiceCollection();
+            ViewCollection = ViewCollection.LoadViews();
 
             logger = new Logger($"{Info.StartTime}:{Info.Name}");
         }
@@ -54,7 +57,7 @@ namespace WebServer.Servers
 
                     string requestText = await ReadRequest(stream);
 
-                    Request request = Request.Parse(requestText, ServiceCollection, clientIp);
+                    Request request = Request.Parse(requestText, ServiceCollection, ViewCollection, clientIp);
 
                     Response response = routingTable.MatchRequest(request);
 
